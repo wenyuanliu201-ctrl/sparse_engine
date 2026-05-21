@@ -1,0 +1,47 @@
+# ============================================================================
+# Git ignore for Sparse Engine Project
+# ============================================================================
+
+# ===== ModelSim =====
+sim/work/
+sim/transcript
+sim/modelsim.ini
+sim/vsim.wlf
+sim/*.wlf
+*.vstf
+
+# ===== LaTeX =====
+doc/*.aux
+doc/*.log
+doc/*.out
+doc/*.toc
+doc/*.fdb_latexmk
+doc/*.fls
+doc/*.synctex.gz
+doc/*.bbl
+doc/*.blg
+doc/*.nav
+doc/*.snm
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# ===== Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== System =====
+*.log
+*.tmp
