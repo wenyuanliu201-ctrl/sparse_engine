@@ -10,18 +10,8 @@ sim/vsim.wlf
 sim/*.wlf
 *.vstf
 
-# ===== LaTeX =====
-doc/*.aux
-doc/*.log
-doc/*.out
-doc/*.toc
-doc/*.fdb_latexmk
-doc/*.fls
-doc/*.synctex.gz
-doc/*.bbl
-doc/*.blg
-doc/*.nav
-doc/*.snm
+# ===== LaTeX / Patent docs =====
+doc/
 
 # ===== Python =====
 __pycache__/
